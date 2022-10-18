@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Site</title>
+</head>
+<body>
+    <main>
+
+        <!--HEADER-->
+        <header>
+            <div class="logo">
+                LOGO
+            </div>
+            <div class="menu">
+                <nav class="nav-list">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#contact">Contatos</a>
+                </nav>
+            </div>
+        </header>
+
+        <!--HOME-->
+        <section id="home">
+            <div class="home-info">
+              <h2>Olá, sou Artur</h2>
+              <span class="home-position">Programador Web</span>
+              <span class="home-resume">
+                Cursando 2º Ano de Informatica,
+                ou seja, tenho experiência em desenvolvimento web
+                (JS, HTML, CSS e entre outros).
+              </span>
+      
+              <button>
+                <a href="#contact">Contate-me</a>
+              </button>
+            </div>
+            <div class="home-img">
+              <img src="./img/avatar.png" alt="Foto de perfil">
+            </div>
+          </section>
+
+          <!--PROJECTS-->
+
+          <section id="projects">
+            <h2>Projetos</h2>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="project-img">
+                    <img src="./img/site.png" alt="Foto de um site">
+                  </div>
+                  <div class="project-info">
+                    <h2>WebSites Modernos</h2>
+                    <p>Criação de websites modernos responsivos para qualquer dispositivo.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project-img">
+                    <img src="./img/SSyQd.png" alt="Foto de um banco de dados">
+                  </div>
+                  <div class="project-info">
+                    <h2>Bancos de Dados</h2>
+                    <p>Criação de banco de dados de qualquer produto ou cliente de um estabelecimento.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project-img">
+                    <img src="./img/Post de Lula.jpg" alt="Foto de um design">
+                  </div>
+                  <div class="project-info">
+                    <h2>Designes Criativos</h2>
+                    <p>Criação de designes criativos do Canvas ou Inkscape.</p>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <!--CONTACT-->
+
+        <section id="contact">
+          <h2>Contato</h2>
+          <form>
+            <div class="social-icons">
+              <li><a class="social-icon" href="https://www.instagram.com/_artuns/"><i class="fab fa-instagram"></i></a></li>
+              <li><a class="social-icon" href="https://github.com/artursilv"><i class="fa-brands fa-github"></i></a></li>
+              <li><a class="social-icon" href="https://twitter.com/ArturMoraisSil1"><i class="fa-brands fa-twitter"></i></a></li>
+          </div>
+          </form>
+        </section>
+      
+        <footer>
+          copyright © 2022 Artur Morais.
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
